@@ -16,11 +16,11 @@ TextAnalysis = "a2db99b7-8b79-58f8-94bf-bbc811eef33d"
 Unicode = "4ec0a83e-493e-50e2-b9ac-8f72acf5a8f5"
 
 [compat]
-DuckDB = "0.9"
+DuckDB = "0.9.1"
 Languages = "0.4"
 LogExpFunctions = "0.3"
 StatsBase = "0.34"
-TextAnalysis = "0.7"
+TextAnalysis = "0.7.5"
 julia = "1.6"
 
 [extras]
