@@ -5,18 +5,13 @@ using LogExpFunctions: logsumexp
 using Statistics: mean, std
 using Printf: @sprintf
 
+# Export all public functions
 export JJAI, learn!, answer, cleanup!, reset_knowledge!
 
-# Include all the structs and types
+# Include all the components
 include("types.jl")
-
-# Include core transformer components
 include("transformer.jl")
-
-# Include database operations
 include("database.jl")
-
-# Include main functionality
 include("core.jl")
 
 end # module

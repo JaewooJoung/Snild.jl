@@ -215,10 +215,10 @@ function cleanup!(ai::JJAI)
         try
             # Force a checkpoint to ensure all data is written to disk
             DBInterface.execute(ai.conn, "PRAGMA force_checkpoint")
-            # Close the connection
             close(ai.conn)
         catch e
             # If there's an error during cleanup, at least close the connection
+            @warn "Error during cleanup" exception=e
             close(ai.conn)
         end
     end
