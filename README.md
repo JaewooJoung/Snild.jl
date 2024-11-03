@@ -2,6 +2,17 @@
 
 Welcome to your new AI friend! Snild.jl is like having a super-smart buddy who remembers everything you tell them. Let's learn how to play with it! 🚀
 
+## 📦 Installation
+
+Pop open your Julia REPL and let's get started:
+
+```julia
+using Pkg
+Pkg.add(url="https://github.com/JaewooJoung/Snild.jl")
+```
+
+
+
 ## 🌟 Quick Start - Your First AI Friend!
 
 ```julia
