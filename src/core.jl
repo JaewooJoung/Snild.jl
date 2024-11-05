@@ -1,10 +1,10 @@
 #= Constructor: Create a new JJAI instance with specified database path and configuration
 Parameters:
-- db_path: Path to DuckDB database file (default: "sage.duckdb")
+- db_path: Path to DuckDB database file (default: "Snild.duckdb")
 - config: TransformerConfig instance with model parameters (default: DEFAULT_CONFIG)
 Returns: JJAI instance
 =#
-function JJAI(db_path::String="sage.duckdb", config::TransformerConfig=DEFAULT_CONFIG)
+function JJAI(db_path::String="Snild.duckdb", config::TransformerConfig=DEFAULT_CONFIG)
     try
         conn = DBInterface.connect(DuckDB.DB, db_path)
         init_database(conn)

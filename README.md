@@ -1,2 +1,2 @@
-# Sage.jl
-Simple Adaptive Generalized Engine module
+# Snild.jl
+Simple Nice Incremental Language Data model

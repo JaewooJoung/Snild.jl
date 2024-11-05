@@ -1,10 +1,10 @@
-using Sage
+using Snild
 
-#= Simple example showing how to use Sage for knowledge storage and retrieval =#
+#= Simple example showing how to use Snild for knowledge storage and retrieval =#
 function basic_example()
     println("\n=== Basic Usage Example ===")
 
-    # Initialize Sage
+    # Initialize Snild
     oracle = JJAI("example_knowledge.duckdb")
 
     # Add some knowledge
@@ -34,7 +34,7 @@ function basic_example()
     cleanup!(oracle)
 end
 
-#= Example showing how to use Sage for technical documentation =#
+#= Example showing how to use Snild for technical documentation =#
 function technical_docs_example()
     println("\n=== Technical Documentation Example ===")
 
@@ -66,7 +66,7 @@ function technical_docs_example()
     cleanup!(oracle)
 end
 
-#= Example showing how to use Sage for a simple chatbot =#
+#= Example showing how to use Snild for a simple chatbot =#
 function chatbot_example()
     println("\n=== Chatbot Example ===")
 
@@ -104,7 +104,7 @@ function chatbot_example()
 end
 
 # Run all examples
-println("Running Sage.jl Examples...")
+println("Running Snild.jl Examples...")
 println("==========================")
 
 basic_example()

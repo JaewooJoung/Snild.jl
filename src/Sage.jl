@@ -1,4 +1,4 @@
-module Sage
+module Snild
 
 using LinearAlgebra, StatsBase, TextAnalysis, Languages, SparseArrays, DuckDB, Unicode
 using LogExpFunctions: logsumexp
